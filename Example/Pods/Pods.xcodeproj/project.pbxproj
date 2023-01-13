@@ -8,68 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		061C3BD5EF3948D289E1CFFD3E3C55D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4B6AC2DF71DEFDED5CB64E042A4DC892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4BDE7FE9A54EEDBB38ABDA7BA10B2995 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CC19EDAEEF035F900C39F92421804D /* ReplaceMe.swift */; };
-		50016E1910E710334E1EB3669A309B5D /* Pods-OnePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1933DAEA492DE0C3D563D6E142C5956 /* Pods-OnePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CE3F767F383195FD299E1882E3C1A88 /* OnePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7372D62D9A1C223CAC5F6FAC60B390B9 /* OnePlayer-dummy.m */; };
-		8BDA287498E1322C6447FB6407AEEE27 /* OnePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C53EBF60CDB9F59D6E32D562CBEABC /* OnePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90F36B7505AD614F6804AB73346EA8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9DA1722AB34754E852C8C68205719D2E /* Pods-OnePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D7BD5159D79740423D09B024FB2718 /* Pods-OnePlayer_Example-dummy.m */; };
-		D49ED98EBB4820ECE61C303C0A8D0B17 /* Pods-OnePlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1867CDCFBB06DF57D8ED65ACC079EA0 /* Pods-OnePlayer_Tests-dummy.m */; };
-		DA618F5877EDC1DCF0E3567F83A300DB /* Pods-OnePlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1ABD39EB2BE9264B3464592123FFEF9 /* Pods-OnePlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B52430DE5DC770BED6CB62B8D126B72 /* OnePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A70B3C2F12BF5C03E8F89C6267397EF1 /* OnePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41724CBE32AF3CD7F84C87450D7FD894 /* OnePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8392C5EFC74753219CCB6F5E63AB50 /* OnePlayerView.swift */; };
+		50016E1910E710334E1EB3669A309B5D /* Pods-OnePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 691FF1ACFB2CBD70AE0EE79085451437 /* Pods-OnePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		641BB86BFD0F0EFFD740379A43F965CB /* OnePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E2144429FCE0EC4C96B07579524EF /* OnePlayer-dummy.m */; };
+		966FA9D32F16043839E15E1F39622331 /* OnePlayerRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0830BC021CFA6B28A1C62533E80D633 /* OnePlayerRenderingView.swift */; };
+		9DA1722AB34754E852C8C68205719D2E /* Pods-OnePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D0A42F7A8B29A3440AD83F9577F /* Pods-OnePlayer_Example-dummy.m */; };
+		AD981AD5770A6AA8C10E5933F17CAEA5 /* OnePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A83664576E36F0CF30DCECF74CB0E /* OnePlayer.swift */; };
+		B2F372AA5E28C5707A3213E46B6C824A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B4A13DF734D8E0FA3C6D15628F613F67 /* OnePlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93062973B87551C33D3430364D4FD37 /* OnePlayerManager.swift */; };
+		F7EC321CE2078C265BFE2F7DF8AA6F50 /* OnePlayerHepler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F5D4785758794D8FFFE739A06E901 /* OnePlayerHepler.swift */; };
+		FDA9C062D8820E8E494C50BC03E28600 /* OnePlayerControlsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBF9F55651900F55496BCFB46DD08C /* OnePlayerControlsCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3CE2BB86236F51243ABA6835201668E7 /* PBXContainerItemProxy */ = {
+		2AF754DECBC0DDF7C39FBA6D001ED213 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82772E7186C72D2C75939AEA8FEC3D8F;
 			remoteInfo = OnePlayer;
 		};
-		B4031F38AE55F8D09A140E5BCA576440 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2FD8D291416C2DFE21606C05FB3A41E;
-			remoteInfo = "Pods-OnePlayer_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0970459EAC8915F8C981B77E3F7F970A /* Pods-OnePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OnePlayer; path = OnePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BABAEA0BE67B317E3732FF2298AA7E8 /* Pods-OnePlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Example-Info.plist"; sourceTree = "<group>"; };
-		20DAF2D22094444400C83830B0407D85 /* Pods-OnePlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnePlayer_Tests.modulemap"; sourceTree = "<group>"; };
-		462E2D3143C17385A9AA72FE27A20AE4 /* Pods-OnePlayer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OnePlayer_Tests"; path = Pods_OnePlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E4EF4BC3566E1F12AF5A0DF4A58185A /* Pods-OnePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		60AED6F7020800DE7BBD2925C040BFBC /* OnePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePlayer.release.xcconfig; sourceTree = "<group>"; };
-		66CC19EDAEEF035F900C39F92421804D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OnePlayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		699E153C445E608E131162C1D5880827 /* Pods-OnePlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E8392C5EFC74753219CCB6F5E63AB50 /* OnePlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerView.swift; sourceTree = "<group>"; };
+		129DE3F4FACB81192F9488F096756449 /* OnePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnePlayer.modulemap; sourceTree = "<group>"; };
+		1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2243BE0A8D5071ADD586F3537C112104 /* OnePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePlayer.debug.xcconfig; sourceTree = "<group>"; };
+		2695150C17359BAD4A75A45843E6DE78 /* OnePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePlayer.release.xcconfig; sourceTree = "<group>"; };
+		3D80AC5A6C12253A94FF60FB5A4F5AC4 /* Pods-OnePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnePlayer_Example.modulemap"; sourceTree = "<group>"; };
+		691FF1ACFB2CBD70AE0EE79085451437 /* Pods-OnePlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnePlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7372D62D9A1C223CAC5F6FAC60B390B9 /* OnePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnePlayer-dummy.m"; sourceTree = "<group>"; };
-		7D013DB328EF52BF827BAE3CAC903FC1 /* OnePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePlayer-prefix.pch"; sourceTree = "<group>"; };
-		807B9BED5C8C9A1221A7AE2B0CEAE984 /* OnePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnePlayer.modulemap; sourceTree = "<group>"; };
-		85D7BD5159D79740423D09B024FB2718 /* Pods-OnePlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnePlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		933D5CDC9D1532DEBE70415EF4CF7B24 /* Pods-OnePlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnePlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		957E59DF22CEEC83BCCA525428D11014 /* OnePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePlayer.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BBF9F55651900F55496BCFB46DD08C /* OnePlayerControlsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerControlsCoordinator.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2353523F44ED446B0E38710913C8D7 /* Pods-OnePlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OnePlayer_Example"; path = Pods_OnePlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1C53EBF60CDB9F59D6E32D562CBEABC /* OnePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePlayer-umbrella.h"; sourceTree = "<group>"; };
-		A681FD5D041E508ADB29C304D77EB407 /* Pods-OnePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnePlayer_Example.modulemap"; sourceTree = "<group>"; };
-		AD9D0F1C4D6D2A460918472968BAEC36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B7EF69C0E91F05AB90614FE5CAB7AE9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C1933DAEA492DE0C3D563D6E142C5956 /* Pods-OnePlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnePlayer_Example-umbrella.h"; sourceTree = "<group>"; };
-		C6F197C8EA627052000D71D6162997C1 /* Pods-OnePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C85819E35A8C006DA274921F265B246E /* Pods-OnePlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Tests-Info.plist"; sourceTree = "<group>"; };
-		D139D965E20E7B6B1772242DD69FB590 /* OnePlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OnePlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D1867CDCFBB06DF57D8ED65ACC079EA0 /* Pods-OnePlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnePlayer_Tests-dummy.m"; sourceTree = "<group>"; };
-		D502EB3FD4CA2EB93B74A2AFB9B90227 /* Pods-OnePlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnePlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8F54DA1B5891F021A64A0F9CFB2569D /* Pods-OnePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DA57FE4F78F189AE1F755502EB355088 /* OnePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnePlayer-Info.plist"; sourceTree = "<group>"; };
-		E224012F041800BEB00A720B99BBFFC8 /* Pods-OnePlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E71C91F202F0B81793A9CF1263D1F505 /* Pods-OnePlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F1ABD39EB2BE9264B3464592123FFEF9 /* Pods-OnePlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnePlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A03E2144429FCE0EC4C96B07579524EF /* OnePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnePlayer-dummy.m"; sourceTree = "<group>"; };
+		A37F984B8A7DD7C2D51BCAC0D33CF759 /* Pods-OnePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A70B3C2F12BF5C03E8F89C6267397EF1 /* OnePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePlayer-umbrella.h"; sourceTree = "<group>"; };
+		A93062973B87551C33D3430364D4FD37 /* OnePlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerManager.swift; sourceTree = "<group>"; };
+		B6863EEAC6B19774605569D7B63E2DB2 /* Pods-OnePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B69F5D4785758794D8FFFE739A06E901 /* OnePlayerHepler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerHepler.swift; sourceTree = "<group>"; };
+		B70395A3F5F6DE175B2D1D47E0D40B58 /* OnePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePlayer-prefix.pch"; sourceTree = "<group>"; };
+		BA6F51799E872986E8E3EEA01E071776 /* Pods-OnePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB1A2719FFF80D676A6A80E541740990 /* Pods-OnePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBE99B9F514C1C1AEDFD3432775074D1 /* OnePlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OnePlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1130D8188DFFACC2AE03E0195669BA5 /* OnePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnePlayer-Info.plist"; sourceTree = "<group>"; };
+		D7E8A9A4800B103546987BB7538EC8AB /* Pods-OnePlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnePlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0830BC021CFA6B28A1C62533E80D633 /* OnePlayerRenderingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerRenderingView.swift; sourceTree = "<group>"; };
+		EAF87DB2B0EF5C83102F8250F6D75138 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EC3A83664576E36F0CF30DCECF74CB0E /* OnePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayer.swift; sourceTree = "<group>"; };
+		F11D2D0A42F7A8B29A3440AD83F9577F /* Pods-OnePlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnePlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		FC55AF314C88C3541DFDA2CA1D664651 /* Pods-OnePlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,40 +71,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A0AC8F0ECA0AFBCD005E7A5ACA6647E /* Frameworks */ = {
+		91E84A0A3248B84831003126C93C0CC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F36B7505AD614F6804AB73346EA8CD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0AC0CBB08C4A427ED0D74B09D34A44E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B6AC2DF71DEFDED5CB64E042A4DC892 /* Foundation.framework in Frameworks */,
+				B2F372AA5E28C5707A3213E46B6C824A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AC9AFEB9E1452F2196E3BF9EC788E8D /* Pods-OnePlayer_Example */ = {
+		17259B7BE271A5B3ED5827BB28D1DD7E /* OnePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				A681FD5D041E508ADB29C304D77EB407 /* Pods-OnePlayer_Example.modulemap */,
-				933D5CDC9D1532DEBE70415EF4CF7B24 /* Pods-OnePlayer_Example-acknowledgements.markdown */,
-				0970459EAC8915F8C981B77E3F7F970A /* Pods-OnePlayer_Example-acknowledgements.plist */,
-				85D7BD5159D79740423D09B024FB2718 /* Pods-OnePlayer_Example-dummy.m */,
-				5E4EF4BC3566E1F12AF5A0DF4A58185A /* Pods-OnePlayer_Example-frameworks.sh */,
-				1BABAEA0BE67B317E3732FF2298AA7E8 /* Pods-OnePlayer_Example-Info.plist */,
-				C1933DAEA492DE0C3D563D6E142C5956 /* Pods-OnePlayer_Example-umbrella.h */,
-				C6F197C8EA627052000D71D6162997C1 /* Pods-OnePlayer_Example.debug.xcconfig */,
-				D8F54DA1B5891F021A64A0F9CFB2569D /* Pods-OnePlayer_Example.release.xcconfig */,
+				AA89ECE053376684EE9C896547EDAA56 /* ui */,
+				DB095D38D3EC7DA22087D9532C824EB3 /* hepler */,
+				698EEE455F6236912F59468CD0D8F3B9 /* player */,
+				21672F1F73932B332259B5234A302206 /* Pod */,
+				4F1F394EFCAC726676CAE1A1DE3A2828 /* Support Files */,
 			);
-			name = "Pods-OnePlayer_Example";
-			path = "Target Support Files/Pods-OnePlayer_Example";
+			name = OnePlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21672F1F73932B332259B5234A302206 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CBE99B9F514C1C1AEDFD3432775074D1 /* OnePlayer.podspec */,
+				EAF87DB2B0EF5C83102F8250F6D75138 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4F1F394EFCAC726676CAE1A1DE3A2828 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				129DE3F4FACB81192F9488F096756449 /* OnePlayer.modulemap */,
+				A03E2144429FCE0EC4C96B07579524EF /* OnePlayer-dummy.m */,
+				D1130D8188DFFACC2AE03E0195669BA5 /* OnePlayer-Info.plist */,
+				B70395A3F5F6DE175B2D1D47E0D40B58 /* OnePlayer-prefix.pch */,
+				A70B3C2F12BF5C03E8F89C6267397EF1 /* OnePlayer-umbrella.h */,
+				2243BE0A8D5071ADD586F3537C112104 /* OnePlayer.debug.xcconfig */,
+				2695150C17359BAD4A75A45843E6DE78 /* OnePlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OnePlayer";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -125,78 +127,50 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		589EE81813C2D32A58A4E62955081D5E /* Development Pods */ = {
+		597D890ABF4E15288AA37BD1E128D246 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B691A473FC000120C5AA9354BE503F14 /* OnePlayer */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9A05663DF84DB375AA49F536A795400E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B7EF69C0E91F05AB90614FE5CAB7AE9F /* LICENSE */,
-				D139D965E20E7B6B1772242DD69FB590 /* OnePlayer.podspec */,
-				AD9D0F1C4D6D2A460918472968BAEC36 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9EF5F3B6A234DDB65FA93FFE3407043D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer */,
-				9E2353523F44ED446B0E38710913C8D7 /* Pods-OnePlayer_Example */,
-				462E2D3143C17385A9AA72FE27A20AE4 /* Pods-OnePlayer_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A6C680E7D47738488D253651ECC06672 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2AC9AFEB9E1452F2196E3BF9EC788E8D /* Pods-OnePlayer_Example */,
-				CD99655F03ADC18DB83AAB42BCE55428 /* Pods-OnePlayer_Tests */,
+				D84E672050267EC497578CFEA57ECDBC /* Pods-OnePlayer_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B691A473FC000120C5AA9354BE503F14 /* OnePlayer */ = {
+		698EEE455F6236912F59468CD0D8F3B9 /* player */ = {
 			isa = PBXGroup;
 			children = (
-				66CC19EDAEEF035F900C39F92421804D /* ReplaceMe.swift */,
-				9A05663DF84DB375AA49F536A795400E /* Pod */,
-				FABF7E5673163283864537D3AE242E91 /* Support Files */,
+				EC3A83664576E36F0CF30DCECF74CB0E /* OnePlayer.swift */,
+				E0830BC021CFA6B28A1C62533E80D633 /* OnePlayerRenderingView.swift */,
+				0E8392C5EFC74753219CCB6F5E63AB50 /* OnePlayerView.swift */,
 			);
-			name = OnePlayer;
-			path = ../..;
+			name = player;
+			path = OnePlayer/Classes/player;
 			sourceTree = "<group>";
 		};
-		CD99655F03ADC18DB83AAB42BCE55428 /* Pods-OnePlayer_Tests */ = {
+		8AA0AE1A34CA2DD58988B4B91634C119 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20DAF2D22094444400C83830B0407D85 /* Pods-OnePlayer_Tests.modulemap */,
-				D502EB3FD4CA2EB93B74A2AFB9B90227 /* Pods-OnePlayer_Tests-acknowledgements.markdown */,
-				699E153C445E608E131162C1D5880827 /* Pods-OnePlayer_Tests-acknowledgements.plist */,
-				D1867CDCFBB06DF57D8ED65ACC079EA0 /* Pods-OnePlayer_Tests-dummy.m */,
-				C85819E35A8C006DA274921F265B246E /* Pods-OnePlayer_Tests-Info.plist */,
-				F1ABD39EB2BE9264B3464592123FFEF9 /* Pods-OnePlayer_Tests-umbrella.h */,
-				E71C91F202F0B81793A9CF1263D1F505 /* Pods-OnePlayer_Tests.debug.xcconfig */,
-				E224012F041800BEB00A720B99BBFFC8 /* Pods-OnePlayer_Tests.release.xcconfig */,
+				17259B7BE271A5B3ED5827BB28D1DD7E /* OnePlayer */,
 			);
-			name = "Pods-OnePlayer_Tests";
-			path = "Target Support Files/Pods-OnePlayer_Tests";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AA89ECE053376684EE9C896547EDAA56 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				99BBF9F55651900F55496BCFB46DD08C /* OnePlayerControlsCoordinator.swift */,
+			);
+			name = ui;
+			path = OnePlayer/Classes/ui;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				589EE81813C2D32A58A4E62955081D5E /* Development Pods */,
+				8AA0AE1A34CA2DD58988B4B91634C119 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9EF5F3B6A234DDB65FA93FFE3407043D /* Products */,
-				A6C680E7D47738488D253651ECC06672 /* Targets Support Files */,
+				EBF08E04B3E55249F71D6F3A116C3812 /* Products */,
+				597D890ABF4E15288AA37BD1E128D246 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,37 +182,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FABF7E5673163283864537D3AE242E91 /* Support Files */ = {
+		D84E672050267EC497578CFEA57ECDBC /* Pods-OnePlayer_Example */ = {
 			isa = PBXGroup;
 			children = (
-				807B9BED5C8C9A1221A7AE2B0CEAE984 /* OnePlayer.modulemap */,
-				7372D62D9A1C223CAC5F6FAC60B390B9 /* OnePlayer-dummy.m */,
-				DA57FE4F78F189AE1F755502EB355088 /* OnePlayer-Info.plist */,
-				7D013DB328EF52BF827BAE3CAC903FC1 /* OnePlayer-prefix.pch */,
-				A1C53EBF60CDB9F59D6E32D562CBEABC /* OnePlayer-umbrella.h */,
-				957E59DF22CEEC83BCCA525428D11014 /* OnePlayer.debug.xcconfig */,
-				60AED6F7020800DE7BBD2925C040BFBC /* OnePlayer.release.xcconfig */,
+				3D80AC5A6C12253A94FF60FB5A4F5AC4 /* Pods-OnePlayer_Example.modulemap */,
+				D7E8A9A4800B103546987BB7538EC8AB /* Pods-OnePlayer_Example-acknowledgements.markdown */,
+				BB1A2719FFF80D676A6A80E541740990 /* Pods-OnePlayer_Example-acknowledgements.plist */,
+				F11D2D0A42F7A8B29A3440AD83F9577F /* Pods-OnePlayer_Example-dummy.m */,
+				A37F984B8A7DD7C2D51BCAC0D33CF759 /* Pods-OnePlayer_Example-frameworks.sh */,
+				FC55AF314C88C3541DFDA2CA1D664651 /* Pods-OnePlayer_Example-Info.plist */,
+				691FF1ACFB2CBD70AE0EE79085451437 /* Pods-OnePlayer_Example-umbrella.h */,
+				B6863EEAC6B19774605569D7B63E2DB2 /* Pods-OnePlayer_Example.debug.xcconfig */,
+				BA6F51799E872986E8E3EEA01E071776 /* Pods-OnePlayer_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OnePlayer";
+			name = "Pods-OnePlayer_Example";
+			path = "Target Support Files/Pods-OnePlayer_Example";
+			sourceTree = "<group>";
+		};
+		DB095D38D3EC7DA22087D9532C824EB3 /* hepler */ = {
+			isa = PBXGroup;
+			children = (
+				B69F5D4785758794D8FFFE739A06E901 /* OnePlayerHepler.swift */,
+				A93062973B87551C33D3430364D4FD37 /* OnePlayerManager.swift */,
+			);
+			name = hepler;
+			path = OnePlayer/Classes/hepler;
+			sourceTree = "<group>";
+		};
+		EBF08E04B3E55249F71D6F3A116C3812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer.framework */,
+				9E2353523F44ED446B0E38710913C8D7 /* Pods-OnePlayer_Example */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1018B8C7A15670E661E779221680839E /* Headers */ = {
+		9E32B192E20AB2C393FF4C035983246B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA618F5877EDC1DCF0E3567F83A300DB /* Pods-OnePlayer_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D690BCC1D42B11D1B9678108B5465E7D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BDA287498E1322C6447FB6407AEEE27 /* OnePlayer-umbrella.h in Headers */,
+				3B52430DE5DC770BED6CB62B8D126B72 /* OnePlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +242,12 @@
 /* Begin PBXNativeTarget section */
 		82772E7186C72D2C75939AEA8FEC3D8F /* OnePlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4728D71E1E39A275220A38712ED57A0A /* Build configuration list for PBXNativeTarget "OnePlayer" */;
+			buildConfigurationList = 686FE7EF2235B76EF46068DC815A9F1D /* Build configuration list for PBXNativeTarget "OnePlayer" */;
 			buildPhases = (
-				D690BCC1D42B11D1B9678108B5465E7D /* Headers */,
-				7C7079F9F797A584D219C0F7243AECDD /* Sources */,
-				8A0AC8F0ECA0AFBCD005E7A5ACA6647E /* Frameworks */,
-				C624A1235D7F546A402CE4BE3AD2BA45 /* Resources */,
+				9E32B192E20AB2C393FF4C035983246B /* Headers */,
+				84266CB089D20EA7A5CB2F6CB4B49687 /* Sources */,
+				91E84A0A3248B84831003126C93C0CC7 /* Frameworks */,
+				1784EB5D2B4F98539BA9B57BC0A10EF1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -268,7 +255,7 @@
 			);
 			name = OnePlayer;
 			productName = OnePlayer;
-			productReference = 1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer */;
+			productReference = 1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2FD8D291416C2DFE21606C05FB3A41E /* Pods-OnePlayer_Example */ = {
@@ -283,30 +270,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				E1CE27EAFE6206542AC5399744E34FA5 /* PBXTargetDependency */,
+				5510AC9DD19A3F22A81E0B7711B369D0 /* PBXTargetDependency */,
 			);
 			name = "Pods-OnePlayer_Example";
 			productName = Pods_OnePlayer_Example;
 			productReference = 9E2353523F44ED446B0E38710913C8D7 /* Pods-OnePlayer_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		E0AFEF02AABE3B62DFC24B8595EFF6BA /* Pods-OnePlayer_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC58396C03BB97F6F177D3F013370DB5 /* Build configuration list for PBXNativeTarget "Pods-OnePlayer_Tests" */;
-			buildPhases = (
-				1018B8C7A15670E661E779221680839E /* Headers */,
-				BE973C541E68150E2F5D83A9C0ADF0EE /* Sources */,
-				E0AC0CBB08C4A427ED0D74B09D34A44E /* Frameworks */,
-				08776ECBEE43F6671664A6D24DBABF6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8AD74C859B8251DC33372076D763653 /* PBXTargetDependency */,
-			);
-			name = "Pods-OnePlayer_Tests";
-			productName = Pods_OnePlayer_Tests;
-			productReference = 462E2D3143C17385A9AA72FE27A20AE4 /* Pods-OnePlayer_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,19 +295,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9EF5F3B6A234DDB65FA93FFE3407043D /* Products */;
+			productRefGroup = EBF08E04B3E55249F71D6F3A116C3812 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				82772E7186C72D2C75939AEA8FEC3D8F /* OnePlayer */,
 				D2FD8D291416C2DFE21606C05FB3A41E /* Pods-OnePlayer_Example */,
-				E0AFEF02AABE3B62DFC24B8595EFF6BA /* Pods-OnePlayer_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		08776ECBEE43F6671664A6D24DBABF6C /* Resources */ = {
+		1784EB5D2B4F98539BA9B57BC0A10EF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,22 +320,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C624A1235D7F546A402CE4BE3AD2BA45 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C7079F9F797A584D219C0F7243AECDD /* Sources */ = {
+		84266CB089D20EA7A5CB2F6CB4B49687 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE3F767F383195FD299E1882E3C1A88 /* OnePlayer-dummy.m in Sources */,
-				4BDE7FE9A54EEDBB38ABDA7BA10B2995 /* ReplaceMe.swift in Sources */,
+				AD981AD5770A6AA8C10E5933F17CAEA5 /* OnePlayer.swift in Sources */,
+				641BB86BFD0F0EFFD740379A43F965CB /* OnePlayer-dummy.m in Sources */,
+				FDA9C062D8820E8E494C50BC03E28600 /* OnePlayerControlsCoordinator.swift in Sources */,
+				F7EC321CE2078C265BFE2F7DF8AA6F50 /* OnePlayerHepler.swift in Sources */,
+				B4A13DF734D8E0FA3C6D15628F613F67 /* OnePlayerManager.swift in Sources */,
+				966FA9D32F16043839E15E1F39622331 /* OnePlayerRenderingView.swift in Sources */,
+				41724CBE32AF3CD7F84C87450D7FD894 /* OnePlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,70 +345,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE973C541E68150E2F5D83A9C0ADF0EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D49ED98EBB4820ECE61C303C0A8D0B17 /* Pods-OnePlayer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8AD74C859B8251DC33372076D763653 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-OnePlayer_Example";
-			target = D2FD8D291416C2DFE21606C05FB3A41E /* Pods-OnePlayer_Example */;
-			targetProxy = B4031F38AE55F8D09A140E5BCA576440 /* PBXContainerItemProxy */;
-		};
-		E1CE27EAFE6206542AC5399744E34FA5 /* PBXTargetDependency */ = {
+		5510AC9DD19A3F22A81E0B7711B369D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OnePlayer;
 			target = 82772E7186C72D2C75939AEA8FEC3D8F /* OnePlayer */;
-			targetProxy = 3CE2BB86236F51243ABA6835201668E7 /* PBXContainerItemProxy */;
+			targetProxy = 2AF754DECBC0DDF7C39FBA6D001ED213 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01B9AEA527A4A9005CDC77E7C812D4B0 /* Release */ = {
+		08404893095C09E619A16245377D8F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E224012F041800BEB00A720B99BBFFC8 /* Pods-OnePlayer_Tests.release.xcconfig */;
+			baseConfigurationReference = 2243BE0A8D5071ADD586F3537C112104 /* OnePlayer.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OnePlayer_Tests/Pods-OnePlayer_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OnePlayer_Tests/Pods-OnePlayer_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		16DAA8BFB2678D03DEDE01C8ED295B75 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 957E59DF22CEEC83BCCA525428D11014 /* OnePlayer.debug.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -456,7 +374,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OnePlayer/OnePlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OnePlayer/OnePlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OnePlayer/OnePlayer.modulemap";
 				PRODUCT_MODULE_NAME = OnePlayer;
@@ -464,18 +382,19 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		30F547C5AC5525942FF7892759814C8A /* Debug */ = {
+		199B73A243552947ADC53CAD32C67E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E71C91F202F0B81793A9CF1263D1F505 /* Pods-OnePlayer_Tests.debug.xcconfig */;
+			baseConfigurationReference = B6863EEAC6B19774605569D7B63E2DB2 /* Pods-OnePlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -485,12 +404,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OnePlayer_Tests/Pods-OnePlayer_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OnePlayer_Example/Pods-OnePlayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OnePlayer_Tests/Pods-OnePlayer_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OnePlayer_Example/Pods-OnePlayer_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -504,7 +423,40 @@
 			};
 			name = Debug;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		85EBBAAF61F9E87720A9310EE8C3371B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2695150C17359BAD4A75A45843E6DE78 /* OnePlayer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OnePlayer/OnePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OnePlayer/OnePlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OnePlayer/OnePlayer.modulemap";
+				PRODUCT_MODULE_NAME = OnePlayer;
+				PRODUCT_NAME = OnePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -554,85 +506,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8D1B9A267CDC040D7AF7772917EC93CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60AED6F7020800DE7BBD2925C040BFBC /* OnePlayer.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OnePlayer/OnePlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OnePlayer/OnePlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OnePlayer/OnePlayer.modulemap";
-				PRODUCT_MODULE_NAME = OnePlayer;
-				PRODUCT_NAME = OnePlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CEFA34786DC6EDBB535921C8BFA13576 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8F54DA1B5891F021A64A0F9CFB2569D /* Pods-OnePlayer_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OnePlayer_Example/Pods-OnePlayer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OnePlayer_Example/Pods-OnePlayer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -685,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -698,11 +583,12 @@
 			};
 			name = Debug;
 		};
-		D3155BF8E2DBA2D0626540A3AA13FD46 /* Debug */ = {
+		E45FDC6AFE75C8AC7EFCCDCC84E3DD86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6F197C8EA627052000D71D6162997C1 /* Pods-OnePlayer_Example.debug.xcconfig */;
+			baseConfigurationReference = BA6F51799E872986E8E3EEA01E071776 /* Pods-OnePlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -714,7 +600,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-OnePlayer_Example/Pods-OnePlayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-OnePlayer_Example/Pods-OnePlayer_Example.modulemap";
@@ -726,28 +612,29 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4728D71E1E39A275220A38712ED57A0A /* Build configuration list for PBXNativeTarget "OnePlayer" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16DAA8BFB2678D03DEDE01C8ED295B75 /* Debug */,
-				8D1B9A267CDC040D7AF7772917EC93CE /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		686FE7EF2235B76EF46068DC815A9F1D /* Build configuration list for PBXNativeTarget "OnePlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				08404893095C09E619A16245377D8F16 /* Debug */,
+				85EBBAAF61F9E87720A9310EE8C3371B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,17 +642,8 @@
 		C579AB1A9F4EE47D24485F30E79EF69D /* Build configuration list for PBXNativeTarget "Pods-OnePlayer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3155BF8E2DBA2D0626540A3AA13FD46 /* Debug */,
-				CEFA34786DC6EDBB535921C8BFA13576 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CC58396C03BB97F6F177D3F013370DB5 /* Build configuration list for PBXNativeTarget "Pods-OnePlayer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30F547C5AC5525942FF7892759814C8A /* Debug */,
-				01B9AEA527A4A9005CDC77E7C812D4B0 /* Release */,
+				199B73A243552947ADC53CAD32C67E7A /* Debug */,
+				E45FDC6AFE75C8AC7EFCCDCC84E3DD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
