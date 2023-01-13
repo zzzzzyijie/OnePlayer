@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OnePlayer_Example' do
+  pod 'OnePlayer', :path => '../'
+
+  target 'OnePlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "OnePlayer",
+  "version": "0.1.0",
+  "summary": "A short description of OnePlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zengyijie/OnePlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zengyijie": "zengyijie@jianzhikeji.com"
+  },
+  "source": {
+    "git": "https://github.com/zengyijie/OnePlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OnePlayer/Classes/**/*"
+}

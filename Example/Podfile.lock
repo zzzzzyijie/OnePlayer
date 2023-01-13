@@ -1,0 +1,16 @@
+PODS:
+  - OnePlayer (0.1.0)
+
+DEPENDENCIES:
+  - OnePlayer (from `../`)
+
+EXTERNAL SOURCES:
+  OnePlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OnePlayer: a0b994ec1f0d9b1fd57ba963bf7b43addf0f2716
+
+PODFILE CHECKSUM: 7f92efbaf93abd12cc1749498f12ab2c0d31ca7f
+
+COCOAPODS: 1.11.3
