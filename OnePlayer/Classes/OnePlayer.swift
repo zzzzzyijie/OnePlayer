@@ -14,7 +14,7 @@ public class OnePlayer: AVPlayer {
     
     // MARK: - Data ----------------------------
     /// player view
-    weak var playbackDelegate: OnePlayerPlaybackDelegate?
+    public weak var playbackDelegate: OnePlayerPlaybackDelegate?
     /// time Observer
     private var timeObserver: Any?
     
@@ -30,7 +30,7 @@ public class OnePlayer: AVPlayer {
     
     // MARK: - Method ----------------------------
     /// 配置player
-    func setupPlayer() {
+    public func setupPlayer() {
         // 监听 didEnd
         NotificationCenter.default.addObserver(self,selector: #selector(playerDidEnd),name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: self.currentItem)
         
