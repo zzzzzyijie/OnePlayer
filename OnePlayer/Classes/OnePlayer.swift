@@ -8,11 +8,13 @@
 import UIKit
 import AVFoundation
 
+class OnePlayerItem: AVPlayerItem { }
+
 class OnePlayer: AVPlayer {
     
     // MARK: - Data ----------------------------
     /// player view
-    weak var handler: OnePlayerView?
+    weak var playbackDelegate: OnePlayerPlaybackDelegate?
     /// time Observer
     private var timeObserver: Any?
     
@@ -36,7 +38,7 @@ class OnePlayer: AVPlayer {
         let oneSeconds = CMTime(seconds: 1.0, preferredTimescale: CMTimeScale(NSEC_PER_SEC))
         timeObserver = addPeriodicTimeObserver(forInterval: oneSeconds, queue: .main) { [weak self] time in
             guard let self = self else { return }
-            self.handler?.playbackDelegate?.playbackTimeDidChange(player: self, to: time)
+            self.playbackDelegate?.playbackTimeDidChange(player: self, to: time)
         }
         
         // 监听player status
@@ -68,19 +70,19 @@ class OnePlayer: AVPlayer {
     @objc private func playerDidEnd(_ notification: Notification) {
         if let item = notification.object as? AVPlayerItem,
            item == currentItem {
-            handler?.playbackDelegate?.playbackDidEnd(player: self)
+            playbackDelegate?.playbackDidEnd(player: self)
         }
     }
     
     // MARK: - Override ----------------------------
     override func play() {
         super.play()
-        handler?.playbackDelegate?.playbackDidBegin(player: self)
+        playbackDelegate?.playbackDidBegin(player: self)
     }
     
     override func pause() {
         super.pause()
-        handler?.playbackDelegate?.playbackDidPause(player: self)
+        playbackDelegate?.playbackDidPause(player: self)
     }
     
     override func replaceCurrentItem(with item: AVPlayerItem?) {
@@ -91,7 +93,7 @@ class OnePlayer: AVPlayer {
         }
         super.replaceCurrentItem(with: item)
         if let newItem = currentItem ?? item {
-            handler?.playbackDelegate?.playbackAssetLoaded(player: self)
+            playbackDelegate?.playbackAssetLoaded(player: self)
             OnePlayerObserverKey.allCases.forEach { key in
                 newItem.addObserver(self, forKeyPath: key.rawValue, options: .new, context: nil)
             }
@@ -100,19 +102,16 @@ class OnePlayer: AVPlayer {
     
     // MARK: - Observer ----------------------------
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        guard let handler = handler else {
-            return
-        }
         // player 的 status
         let keyPathValue = OnePlayerObserverKey(rawValue: keyPath ?? "")
         if let obj = object as? OnePlayer, obj == self {
             if keyPathValue == .status {
                 switch obj.status {
                 case .readyToPlay:
-                    handler.playbackDelegate?.playbackPlayerReadyToPlay(player: self)
+                    playbackDelegate?.playbackPlayerReadyToPlay(player: self)
                     break
                 case .failed:
-                    handler.playbackDelegate?.playbackDidFailed(with: OnePlayerError.unknown)
+                    playbackDelegate?.playbackDidFailed(with: OnePlayerError.unknown)
                     break
                 default:
                     break
@@ -129,14 +128,14 @@ class OnePlayer: AVPlayer {
                     switch itemStatus {
                     case .readyToPlay:
                         if let oneItem = currentItem as? OnePlayerItem {
-                            handler.playbackDelegate?.playbackItemReadyToPlay(player: self, item: oneItem)
+                            playbackDelegate?.playbackItemReadyToPlay(player: self, item: oneItem)
                         }
                         break
                     case .failed:
                         if let error = item.error {
-                            handler.playbackDelegate?.playbackDidFailed(with: error)
+                            playbackDelegate?.playbackDidFailed(with: error)
                         }else {
-                            handler.playbackDelegate?.playbackDidFailed(with: OnePlayerError.unknown)
+                            playbackDelegate?.playbackDidFailed(with: OnePlayerError.unknown)
                         }
                         break
                     default:
@@ -146,23 +145,23 @@ class OnePlayer: AVPlayer {
                 break
             case .playbackBufferEmpty:
                 if currentItem?.isPlaybackBufferEmpty == true {
-                    handler.playbackDelegate?.playbackStartBuffering(player: self)
+                    playbackDelegate?.playbackStartBuffering(player: self)
                 }
                 break
             case .loadedTimeRanges:
                 let rangeProgress = getCurrentLoadRange()
                 if rangeProgress > 0 {
-                    handler.playbackDelegate?.playbackLoadedTimeRanges(player: self, progress: rangeProgress)
+                    playbackDelegate?.playbackLoadedTimeRanges(player: self, progress: rangeProgress)
                 }
                 break
             case .playbackLikelyToKeepUp:
                 if currentItem?.isPlaybackLikelyToKeepUp == true {
-                    handler.playbackDelegate?.playbackEndBuffering(player: self)
+                    playbackDelegate?.playbackEndBuffering(player: self)
                 }
                 break
             case .playbackBufferFull:
                 if currentItem?.isPlaybackBufferFull == true {
-                    handler.playbackDelegate?.playbackEndBuffering(player: self)
+                    playbackDelegate?.playbackEndBuffering(player: self)
                 }
                 break
             default:
@@ -172,7 +171,7 @@ class OnePlayer: AVPlayer {
     }
 }
 
-
+// MARK: - OnePlayer Extension ----------------------------
 extension OnePlayer {
     
     /// 开始时间

@@ -9,23 +9,6 @@ import UIKit
 import Foundation
 import AVFoundation
 
-// MARK: - VideoPlayerManagerPlayerStatus ----------------------------
-/// 播放器状态
-enum VideoPlayerManagerPlayerStatus {
-    case assetLoaded
-    case didPlay
-    case readyToPlay
-    case didEnd
-    case didPause
-    case buffering
-    case endBuffering
-    case loadedTimeRanges
-    case failed
-    case none
-}
-typealias VideoPlayStatusHanderClosure = (_ status: VideoPlayerManagerPlayerStatus) -> Void
-typealias VideoPlayTimeHanderClosure = (_ time: TimeInterval) -> Void
-
 // MARK: - OnePlayerPlaybackDelegate ----------------------------
 protocol OnePlayerPlaybackDelegate: AnyObject {
     /// 资源已加载

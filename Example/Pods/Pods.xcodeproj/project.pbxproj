@@ -8,17 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		061C3BD5EF3948D289E1CFFD3E3C55D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3968307D2974F1D7001CFD30 /* OnePlayerHepler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968307B2974F1D7001CFD30 /* OnePlayerHepler.swift */; };
+		3968307E2974F1D7001CFD30 /* OnePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968307C2974F1D7001CFD30 /* OnePlayer.swift */; };
 		3B52430DE5DC770BED6CB62B8D126B72 /* OnePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A70B3C2F12BF5C03E8F89C6267397EF1 /* OnePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41724CBE32AF3CD7F84C87450D7FD894 /* OnePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8392C5EFC74753219CCB6F5E63AB50 /* OnePlayerView.swift */; };
 		50016E1910E710334E1EB3669A309B5D /* Pods-OnePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 691FF1ACFB2CBD70AE0EE79085451437 /* Pods-OnePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		641BB86BFD0F0EFFD740379A43F965CB /* OnePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E2144429FCE0EC4C96B07579524EF /* OnePlayer-dummy.m */; };
-		966FA9D32F16043839E15E1F39622331 /* OnePlayerRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0830BC021CFA6B28A1C62533E80D633 /* OnePlayerRenderingView.swift */; };
 		9DA1722AB34754E852C8C68205719D2E /* Pods-OnePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F11D2D0A42F7A8B29A3440AD83F9577F /* Pods-OnePlayer_Example-dummy.m */; };
-		AD981AD5770A6AA8C10E5933F17CAEA5 /* OnePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3A83664576E36F0CF30DCECF74CB0E /* OnePlayer.swift */; };
 		B2F372AA5E28C5707A3213E46B6C824A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B4A13DF734D8E0FA3C6D15628F613F67 /* OnePlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93062973B87551C33D3430364D4FD37 /* OnePlayerManager.swift */; };
-		F7EC321CE2078C265BFE2F7DF8AA6F50 /* OnePlayerHepler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F5D4785758794D8FFFE739A06E901 /* OnePlayerHepler.swift */; };
-		FDA9C062D8820E8E494C50BC03E28600 /* OnePlayerControlsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BBF9F55651900F55496BCFB46DD08C /* OnePlayerControlsCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,32 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E8392C5EFC74753219CCB6F5E63AB50 /* OnePlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerView.swift; sourceTree = "<group>"; };
 		129DE3F4FACB81192F9488F096756449 /* OnePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OnePlayer.modulemap; sourceTree = "<group>"; };
 		1B16CDD2E9E3176FCA195CCB7BEC2E64 /* OnePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OnePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2243BE0A8D5071ADD586F3537C112104 /* OnePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePlayer.debug.xcconfig; sourceTree = "<group>"; };
 		2695150C17359BAD4A75A45843E6DE78 /* OnePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OnePlayer.release.xcconfig; sourceTree = "<group>"; };
+		3968307B2974F1D7001CFD30 /* OnePlayerHepler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnePlayerHepler.swift; path = OnePlayer/Classes/OnePlayerHepler.swift; sourceTree = "<group>"; };
+		3968307C2974F1D7001CFD30 /* OnePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnePlayer.swift; path = OnePlayer/Classes/OnePlayer.swift; sourceTree = "<group>"; };
 		3D80AC5A6C12253A94FF60FB5A4F5AC4 /* Pods-OnePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OnePlayer_Example.modulemap"; sourceTree = "<group>"; };
 		691FF1ACFB2CBD70AE0EE79085451437 /* Pods-OnePlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnePlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		99BBF9F55651900F55496BCFB46DD08C /* OnePlayerControlsCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerControlsCoordinator.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2353523F44ED446B0E38710913C8D7 /* Pods-OnePlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OnePlayer_Example"; path = Pods_OnePlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E2144429FCE0EC4C96B07579524EF /* OnePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OnePlayer-dummy.m"; sourceTree = "<group>"; };
 		A37F984B8A7DD7C2D51BCAC0D33CF759 /* Pods-OnePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A70B3C2F12BF5C03E8F89C6267397EF1 /* OnePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePlayer-umbrella.h"; sourceTree = "<group>"; };
-		A93062973B87551C33D3430364D4FD37 /* OnePlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerManager.swift; sourceTree = "<group>"; };
 		B6863EEAC6B19774605569D7B63E2DB2 /* Pods-OnePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B69F5D4785758794D8FFFE739A06E901 /* OnePlayerHepler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerHepler.swift; sourceTree = "<group>"; };
 		B70395A3F5F6DE175B2D1D47E0D40B58 /* OnePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OnePlayer-prefix.pch"; sourceTree = "<group>"; };
 		BA6F51799E872986E8E3EEA01E071776 /* Pods-OnePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB1A2719FFF80D676A6A80E541740990 /* Pods-OnePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBE99B9F514C1C1AEDFD3432775074D1 /* OnePlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OnePlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D1130D8188DFFACC2AE03E0195669BA5 /* OnePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OnePlayer-Info.plist"; sourceTree = "<group>"; };
 		D7E8A9A4800B103546987BB7538EC8AB /* Pods-OnePlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OnePlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0830BC021CFA6B28A1C62533E80D633 /* OnePlayerRenderingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayerRenderingView.swift; sourceTree = "<group>"; };
 		EAF87DB2B0EF5C83102F8250F6D75138 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EC3A83664576E36F0CF30DCECF74CB0E /* OnePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnePlayer.swift; sourceTree = "<group>"; };
 		F11D2D0A42F7A8B29A3440AD83F9577F /* Pods-OnePlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OnePlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		FC55AF314C88C3541DFDA2CA1D664651 /* Pods-OnePlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnePlayer_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,9 +77,8 @@
 		17259B7BE271A5B3ED5827BB28D1DD7E /* OnePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AA89ECE053376684EE9C896547EDAA56 /* ui */,
-				DB095D38D3EC7DA22087D9532C824EB3 /* hepler */,
-				698EEE455F6236912F59468CD0D8F3B9 /* player */,
+				3968307B2974F1D7001CFD30 /* OnePlayerHepler.swift */,
+				3968307C2974F1D7001CFD30 /* OnePlayer.swift */,
 				21672F1F73932B332259B5234A302206 /* Pod */,
 				4F1F394EFCAC726676CAE1A1DE3A2828 /* Support Files */,
 			);
@@ -135,32 +126,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		698EEE455F6236912F59468CD0D8F3B9 /* player */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A83664576E36F0CF30DCECF74CB0E /* OnePlayer.swift */,
-				E0830BC021CFA6B28A1C62533E80D633 /* OnePlayerRenderingView.swift */,
-				0E8392C5EFC74753219CCB6F5E63AB50 /* OnePlayerView.swift */,
-			);
-			name = player;
-			path = OnePlayer/Classes/player;
-			sourceTree = "<group>";
-		};
 		8AA0AE1A34CA2DD58988B4B91634C119 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				17259B7BE271A5B3ED5827BB28D1DD7E /* OnePlayer */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AA89ECE053376684EE9C896547EDAA56 /* ui */ = {
-			isa = PBXGroup;
-			children = (
-				99BBF9F55651900F55496BCFB46DD08C /* OnePlayerControlsCoordinator.swift */,
-			);
-			name = ui;
-			path = OnePlayer/Classes/ui;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -197,16 +168,6 @@
 			);
 			name = "Pods-OnePlayer_Example";
 			path = "Target Support Files/Pods-OnePlayer_Example";
-			sourceTree = "<group>";
-		};
-		DB095D38D3EC7DA22087D9532C824EB3 /* hepler */ = {
-			isa = PBXGroup;
-			children = (
-				B69F5D4785758794D8FFFE739A06E901 /* OnePlayerHepler.swift */,
-				A93062973B87551C33D3430364D4FD37 /* OnePlayerManager.swift */,
-			);
-			name = hepler;
-			path = OnePlayer/Classes/hepler;
 			sourceTree = "<group>";
 		};
 		EBF08E04B3E55249F71D6F3A116C3812 /* Products */ = {
@@ -285,6 +246,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82772E7186C72D2C75939AEA8FEC3D8F = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -327,13 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD981AD5770A6AA8C10E5933F17CAEA5 /* OnePlayer.swift in Sources */,
 				641BB86BFD0F0EFFD740379A43F965CB /* OnePlayer-dummy.m in Sources */,
-				FDA9C062D8820E8E494C50BC03E28600 /* OnePlayerControlsCoordinator.swift in Sources */,
-				F7EC321CE2078C265BFE2F7DF8AA6F50 /* OnePlayerHepler.swift in Sources */,
-				B4A13DF734D8E0FA3C6D15628F613F67 /* OnePlayerManager.swift in Sources */,
-				966FA9D32F16043839E15E1F39622331 /* OnePlayerRenderingView.swift in Sources */,
-				41724CBE32AF3CD7F84C87450D7FD894 /* OnePlayerView.swift in Sources */,
+				3968307E2974F1D7001CFD30 /* OnePlayer.swift in Sources */,
+				3968307D2974F1D7001CFD30 /* OnePlayerHepler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +324,7 @@
 			baseConfigurationReference = 2243BE0A8D5071ADD586F3537C112104 /* OnePlayer.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -382,6 +345,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -428,6 +392,7 @@
 			baseConfigurationReference = 2695150C17359BAD4A75A45843E6DE78 /* OnePlayer.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
