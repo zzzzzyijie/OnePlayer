@@ -1,6 +1,6 @@
 //
 //  OnePlayerHepler.swift
-//  VersaPlayerViewDemo
+//  OnePlayer
 //
 //  Created by Jie on 2023/1/9.
 //
@@ -10,7 +10,7 @@ import Foundation
 import AVFoundation
 
 // MARK: - OnePlayerPlaybackDelegate ----------------------------
-protocol OnePlayerPlaybackDelegate: AnyObject {
+public protocol OnePlayerPlaybackDelegate: AnyObject {
     /// 资源已加载
     func playbackAssetLoaded(player: OnePlayer)
     
@@ -46,17 +46,17 @@ protocol OnePlayerPlaybackDelegate: AnyObject {
 }
 
 extension OnePlayerPlaybackDelegate {
-    func playbackAssetLoaded(player: OnePlayer) { }
-    func playbackPlayerReadyToPlay(player: OnePlayer) { }
-    func playbackItemReadyToPlay(player: OnePlayer, item: OnePlayerItem) { }
-    func playbackTimeDidChange(player: OnePlayer, to time: CMTime) { }
-    func playbackDidBegin(player: OnePlayer) { }
-    func playbackDidPause(player: OnePlayer) { }
-    func playbackDidEnd(player: OnePlayer) { }
-    func playbackStartBuffering(player: OnePlayer) { }
-    func playbackLoadedTimeRanges(player: OnePlayer, progress: CGFloat) { }
-    func playbackEndBuffering(player: OnePlayer) { }
-    func playbackDidFailed(with error: Error) { }
+    public func playbackAssetLoaded(player: OnePlayer) { }
+    public func playbackPlayerReadyToPlay(player: OnePlayer) { }
+    public func playbackItemReadyToPlay(player: OnePlayer, item: OnePlayerItem) { }
+    public func playbackTimeDidChange(player: OnePlayer, to time: CMTime) { }
+    public func playbackDidBegin(player: OnePlayer) { }
+    public func playbackDidPause(player: OnePlayer) { }
+    public func playbackDidEnd(player: OnePlayer) { }
+    public func playbackStartBuffering(player: OnePlayer) { }
+    public func playbackLoadedTimeRanges(player: OnePlayer, progress: CGFloat) { }
+    public func playbackEndBuffering(player: OnePlayer) { }
+    public func playbackDidFailed(with error: Error) { }
 }
 
 // MARK: - Error ----------------------------

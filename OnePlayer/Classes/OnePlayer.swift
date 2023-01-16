@@ -1,6 +1,6 @@
 //
 //  OnePlayer.swift
-//  VersaPlayerViewDemo
+//  OnePlayer
 //
 //  Created by Jie on 2023/1/9.
 //
@@ -8,9 +8,9 @@
 import UIKit
 import AVFoundation
 
-class OnePlayerItem: AVPlayerItem { }
+public class OnePlayerItem: AVPlayerItem { }
 
-class OnePlayer: AVPlayer {
+public class OnePlayer: AVPlayer {
     
     // MARK: - Data ----------------------------
     /// player view
@@ -75,17 +75,17 @@ class OnePlayer: AVPlayer {
     }
     
     // MARK: - Override ----------------------------
-    override func play() {
+    public override func play() {
         super.play()
         playbackDelegate?.playbackDidBegin(player: self)
     }
     
-    override func pause() {
+    public override func pause() {
         super.pause()
         playbackDelegate?.playbackDidPause(player: self)
     }
     
-    override func replaceCurrentItem(with item: AVPlayerItem?) {
+    public override func replaceCurrentItem(with item: AVPlayerItem?) {
         if let item = currentItem {
             OnePlayerObserverKey.allCases.forEach { key in
                 item.removeObserver(self, forKeyPath: key.rawValue)
@@ -101,7 +101,7 @@ class OnePlayer: AVPlayer {
     }
     
     // MARK: - Observer ----------------------------
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         // player 的 status
         let keyPathValue = OnePlayerObserverKey(rawValue: keyPath ?? "")
         if let obj = object as? OnePlayer, obj == self {
@@ -176,7 +176,7 @@ extension OnePlayer {
     
     /// 开始时间
     /// - Returns: CMTime
-    func startTime() -> TimeInterval {
+    public func startTime() -> TimeInterval {
         guard let item = currentItem else {
             return 0.0
         }
@@ -191,7 +191,7 @@ extension OnePlayer {
     
     /// 结束时间 ( duration
     /// - Returns: CMTime
-    func endTime() -> TimeInterval {
+    public func endTime() -> TimeInterval {
         guard let item = currentItem else {
             return 0.0
         }
