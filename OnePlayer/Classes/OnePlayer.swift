@@ -26,6 +26,12 @@ public class OnePlayer: AVPlayer {
             removeTimeObserver(timeObserver)
             self.timeObserver = nil
         }
+        
+        if let item = currentItem {
+            OnePlayerObserverKey.allCases.forEach { key in
+                item.removeObserver(self, forKeyPath: key.rawValue)
+            }
+        }
     }
     
     // MARK: - Method ----------------------------
